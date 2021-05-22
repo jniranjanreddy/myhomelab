@@ -31,27 +31,25 @@ docker run --detach \
   --volume $GITLAB_HOME/data:/var/opt/gitlab \
   gitlab/gitlab-ce:latest
   
-#Jenkins Creds devops/password
+# Jenkins Creds devops/password
 docker run -itd --name jenkins -p 8002:8080 jenkins-updated
 
-#Ansible
+# Ansible
 docker run -itd --name ansible-tower -p 8004:8052 ansible/awx
 
-#Grafana
+# Grafana
 docker run -itd --name grafana -p 3000:3000 grafana/grafana
 
-#Prometheus
+# Prometheus
 docker run -itd --name prometheus -p  9090:9090 prom/prometheus
 
-#Node Exporter
+# Node Exporter
 docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master
 
-#Jfrog
+# Jfrog Artifactory..
 mkdir -p /jfrog/artifactory 
 chown -R 1030:1030 /jfrog/artifactory
 chown -R 1030:1030 /jfrog
 
 docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084   -v /jfrog/artifactory:/var/opt/jfrog/artifactory   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' docker.bintray.io/jfrog/artifactory-oss:latest
-
-  
 ```
