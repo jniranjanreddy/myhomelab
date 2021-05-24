@@ -34,8 +34,11 @@ docker run --detach \
 # Jenkins Creds devops/password
 docker run -itd --name jenkins -p 8002:8080 jenkins-updated
 
+#Mysql
+docker run itd --name=mysql --env="MYSQL_ROOT_PASSWORD=password" mysql:5.7.34
+
 # Ansible
-docker run -itd --name ansible-tower -p 8004:8052 ansible/awx
+docker run -itd --name ansible-tower -p 8004:8052 ansible/awx  # Unfortunately it didnt work. so deployed through anisbled way.
 
 # Grafana
 docker run -itd --name grafana -p 3000:3000 grafana/grafana
