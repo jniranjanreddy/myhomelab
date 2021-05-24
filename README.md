@@ -1,8 +1,13 @@
 # myhomelab
-The is my Home lab.
+The is my Home lab Stack, Running in lenovo L420 i3 with 16GB RAM, planning to upgrade to L470 with 32 GB RAM.
 ```
 DNS Running in Bind
-yum install bind bind-utils -y
+yum install bind bind-utils net-tools -y
+copy /etc/named.conf
+copy /etc/
+copy /var/named/named.forward
+copy /var/named/named.reverse
+
 
 Installing Docker
 yum install -y yum-utils 
