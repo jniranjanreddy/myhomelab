@@ -51,6 +51,9 @@ docker run -itd --name grafana -p 3000:3000 grafana/grafana
 # Prometheus
 docker run -itd --name prometheus -p  9090:9090 prom/prometheus
 
+#Alert Manager
+docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager
+
 # Node Exporter
 docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master
 
