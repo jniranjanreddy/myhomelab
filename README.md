@@ -60,4 +60,15 @@ chown -R 1030:1030 /jfrog/artifactory
 chown -R 1030:1030 /jfrog
 
 docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084   -v /jfrog/artifactory:/var/opt/jfrog/artifactory   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' docker.bintray.io/jfrog/artifactory-oss:latest
+
+docker rm graphite
+docker run -d\
+ --name graphite\
+ --restart=always\
+ -p 4040:80\
+ -p 2003-2004:2003-2004\
+ -p 2023-2024:2023-2024\
+ -p 8125:8125/udp\
+ -p 8126:8126\
+ graphiteapp/graphite-statsd
 ```
