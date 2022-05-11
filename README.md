@@ -82,11 +82,16 @@ docker run -d\
  -p 8126:8126\
  graphiteapp/graphite-statsd
 ```
-Nexus Artifactory
+## Nexus Artifactory
 ```
 docker run -d -p 8081:8081 --name nexus sonatype/nexus3
 ```
-# Postgres
+## Postgres
 ```
 docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+```
+## nginx
+```
+docker run -itd  --name nginx -p 8080:80 nginx:1.19-alpine
+
 ```
