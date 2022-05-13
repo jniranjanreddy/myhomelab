@@ -20,6 +20,20 @@ yum install docker-ce docker-ce-cli
 # systemctl start docker 
 # systemctl status docker
 # systemctl enable docker
+===========================
+| Applications                     | Image                          |
+| ------------------------------- | --------------------------------------------- |
+| Gitlab  | docker run --detach \
+  --hostname 192.168.9.19 \
+  --publish 443:443 --publish 8001:80 \
+  --name gitlab \
+  --restart always \
+  --volume $GITLAB_HOME/config:/etc/gitlab \
+  --volume $GITLAB_HOME/logs:/var/log/gitlab \
+  --volume $GITLAB_HOME/data:/var/opt/gitlab \
+  gitlab/gitlab-ce:latest |
+| Use Docker Desktop for Mac or Docker Desktop for Windows.  | Use Docker Engine, if possible with userns mapping for greater isolation of Docker processes from host processes. |
+| Don’t worry about time drift. | Always run an NTP client on the Docker host and within each container process and sync them all to the same NTP server. If you use swarm services, also ensure that each Docker node syncs its clocks to the same time source as the containers. |
 
 
 # Installing Gitlab
@@ -94,4 +108,8 @@ docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d
 ```
 docker run -itd  --name nginx -p 8080:80 nginx:1.19-alpine
 
+```
+## RabbitMQ
+```
+It must need a hostname -h tag
 ```
