@@ -31,6 +31,11 @@ yum install docker-ce docker-ce-cli
 | Prometheus     | docker run -itd --name prometheus -p  9090:9090 prom/prometheus |
 | Alert Manager  | docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager |
 | Container Exporter | docker run -d --name PROM_CON_EXP -p 9104:9104 -v /sys/fs/cgroup:/cgroup -v /var/run/docker.sock:/var/run/docker.sock            prom/container-exporter |
+| Node Exporter | docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master |
+| Jfrog Artifactory| mkdir -p /jfrog/artifactory ; chown -R 1030:1030 /jfrog/artifactory ; chown -R 1030:1030 /jfrog ; docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084   -v /jfrog/artifactory:/var/opt/jfrog/artifactory   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' docker.bintray.io/jfrog/artifactory-oss:latest |
+| Nexus Artifactory | docker run -d -p 8081:8081 --name nexus sonatype/nexus3 |
+| Postgres | docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres |
+| nginx| docker run -itd  --name nginx -p 8080:80 nginx:1.19-alpine |
 ```
 
 # Installing Gitlab
