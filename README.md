@@ -39,15 +39,3 @@ yum install docker-ce docker-ce-cli
 | RabbitMQ | docker run -d --hostname poc-01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=gestaltAdmin -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management|
 | graphite | docker run -d --name graphite --restart=always -p 4040:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126               graphiteapp/graphite-statsd |
 
-```
-docker rm graphite
-docker run -d\
- --name graphite\
- --restart=always\
- -p 4040:80\
- -p 2003-2004:2003-2004\
- -p 2023-2024:2023-2024\
- -p 8125:8125/udp\
- -p 8126:8126\
- graphiteapp/graphite-statsd
-```
