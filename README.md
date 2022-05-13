@@ -24,9 +24,7 @@ yum install docker-ce docker-ce-cli
 ```
 | Applications                     | Image                          |
 | ------------------------------- | --------------------------------------------- |
-| Gitlab  | # export GITLAB_HOME=/srv/gitlab
-            # export GITLAB_HOME=/srv/gitlab
-           docker run --detach --hostname 192.168.9.19 --publish 443:443 --publish 8001:80 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab            --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ce:latest |
+| Gitlab  | export GITLAB_HOME=/srv/gitlab ; export GITLAB_HOME=/srv/gitlab ; docker run --detach --hostname 192.168.9.19 --publish 443:443 --publish 8001:80 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ce:latest |
 
 ```
 
