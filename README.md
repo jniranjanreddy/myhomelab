@@ -21,6 +21,7 @@ yum install docker-ce docker-ce-cli
 # systemctl status docker
 # systemctl enable docker
 ===========================
+```
 | Applications                     | Image                          |
 | ------------------------------- | --------------------------------------------- |
 | Gitlab  | docker run --detach \
@@ -34,7 +35,7 @@ yum install docker-ce docker-ce-cli
   gitlab/gitlab-ce:latest |
 | Use Docker Desktop for Mac or Docker Desktop for Windows.  | Use Docker Engine, if possible with userns mapping for greater isolation of Docker processes from host processes. |
 | Don’t worry about time drift. | Always run an NTP client on the Docker host and within each container process and sync them all to the same NTP server. If you use swarm services, also ensure that each Docker node syncs its clocks to the same time source as the containers. |
-
+```
 
 # Installing Gitlab
 export GITLAB_HOME=/srv/gitlab
