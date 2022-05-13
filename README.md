@@ -36,11 +36,12 @@ yum install docker-ce docker-ce-cli
 | Nexus Artifactory | docker run -d -p 8081:8081 --name nexus sonatype/nexus3 |
 | Postgres | docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres |
 | nginx| docker run -itd  --name nginx -p 8080:80 nginx:1.19-alpine |
+| RabbitMQ | docker run -d --hostname poc-01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=gestaltAdmin -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management|
 ```
 
 # Installing Gitlab
 export GITLAB_HOME=/srv/gitlab
-export GITLAB_HOME=$HOME/gitlab
+export GITLAB_HOME=$HOME/gitlab 
 
 docker run --detach \
   --hostname 192.168.9.19 \
