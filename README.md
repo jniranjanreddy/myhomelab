@@ -36,7 +36,7 @@ yum install docker-ce docker-ce-cli
 | Container Exporter | docker run -d --name PROM_CON_EXP -p 9104:9104 -v /sys/fs/cgroup:/cgroup -v /var/run/docker.sock:/var/run/docker.sock            prom/container-exporter |
 | Node Exporter | docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master |
 | Jfrog Artifactory| mkdir -p /jfrog/artifactory ; chown -R 1030:1030 /jfrog/artifactory ; chown -R 1030:1030 /jfrog ; docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084   -v /jfrog/artifactory:/var/opt/jfrog/artifactory   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' docker.bintray.io/jfrog/artifactory-oss:latest |
-| Nexus Artifactory | docker run -d -p 8081:8081 --name nexus sonatype/nexus3 |
+| Nexus Artifactory | docker volume create --name nexus-data; docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3 |
 | Postgres | docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres |
 | nginx| docker run -itd  --name nginx -p 8080:80 nginx:1.19-alpine |
 | RabbitMQ | docker run -v /rabbitmq-data:/var/lib/rabbitmq -d --hostname poc-01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=password -p 8088:15672 -p 8087:5672 rabbitmq:3-management|
