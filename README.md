@@ -39,7 +39,7 @@ yum install docker-ce docker-ce-cli
 | Nexus Artifactory | docker volume create --name nexus-data; docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3 |
 | Postgres | docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres |
 | nginx| docker run -itd -v /etc/nginx:/etc/nginx -v /www:/www --name nginx -p 80:80 nginx:1.19-alpine |
-| RabbitMQ | docker run -v /rabbitmq-data:/var/lib/rabbitmq -d --hostname poc-01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=password -p 8088:15672 -p 8087:5672 rabbitmq:3-management|
+| RabbitMQ | docker run -v /rabbitmq-data:/var/lib/rabbitmq -d --hostname dev-server01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=password -p 8088:15672 -p 8087:5672 rabbitmq:3-management|
 | graphite | docker run -d --name graphite --restart=always -p 4040:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126               graphiteapp/graphite-statsd |
 | SonarQube | docker container run -d --name sonarqube-1 -p 9000:9000 sonarqube:lts-developer |
 | Swarm Visualizer| docker run -it -d -p 5000:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer |
