@@ -30,7 +30,7 @@ yum install docker-ce docker-ce-cli
 | Gitlab  | export GITLAB_HOME=/srv/gitlab ; export GITLAB_HOME=/srv/gitlab ; docker run --detach --hostname 192.168.9.19 --publish 443:443 --publish 8001:80 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ce:latest |
 | Jenkins        | docker volume create jenkins-volume ; docker run -itd --name jenkins -v jenkins-volume:/var/jenkins_home -p 8002:8080 nirulabs/jenkins-may22 |
 | Ansible        | docker run -itd --name ansible-tower -p 8004:8052 ansible/awx |
-| Grafana        | docker run -itd --name grafana -p 3000:3000 grafana/grafana |
+| Grafana        | mkdir grafana ; docker run -itd --name grafana -v grafana:/var/lib/grafana -p 3000:3000 grafana/grafana |
 | Prometheus     | docker run -itd --name prometheus -p  9090:9090 prom/prometheus |
 | Alert Manager  | docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager |
 | Container Exporter | docker run -d --name PROM_CON_EXP -p 9104:9104 -v /sys/fs/cgroup:/cgroup -v /var/run/docker.sock:/var/run/docker.sock            prom/container-exporter |
