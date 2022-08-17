@@ -15,15 +15,6 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 |  Nginx        |   Istio             |
 
 
-## How to configure Bind DNS
-```
-yum install bind bind-utils net-tools -y
-copy /etc/named.conf
-copy /etc/
-copy /var/named/named.forward
-copy /var/named/named.reverse
-```
-
 ## Docker Containers..
 | Applications                     | Image                          |
 | ------------------------------- | --------------------------------------------- |
