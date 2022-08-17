@@ -2,6 +2,19 @@
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
 ## How to configure Bind DNS Server.
+
+|     On-Prem   |    Cloud           |    
+|---------------|--------------------|
+|  Python       |   AWS              |  
+|  Jenkins      |   Terraform        | 
+|  Ansible      |   AWS DevOps       | 
+|  Docker       |   EKS              | 
+|  ELK          |   ECS              |
+|  Monitoring   |   Git              |
+|  Kubernetes   |  Nexus             |
+
+
+
 ```
 yum install bind bind-utils net-tools -y
 copy /etc/named.conf
