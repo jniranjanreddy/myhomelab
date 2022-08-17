@@ -57,4 +57,5 @@ yum install docker-ce docker-ce-cli
 | graphite | docker run -d --name graphite --restart=always -p 4040:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126               graphiteapp/graphite-statsd |
 | SonarQube | docker container run -d --name sonarqube-1 -p 9000:9000 sonarqube:lts-developer |
 | Swarm Visualizer| docker run -it -d -p 5000:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer |
+| ELK Stack |  Its working in Centos7 - docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk |
 
