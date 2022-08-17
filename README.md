@@ -1,9 +1,9 @@
 # myhomelab
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
-## How to configure Bind DNS Server.
+## My Technologies.
 
-|     On-Prem   |    Cloud           |    
+|  On-Prem      |   Cloud           |    
 |---------------|--------------------|
 |  Python       |   AWS              |  
 |  Jenkins      |   Terraform        | 
@@ -11,10 +11,11 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 |  Docker       |   EKS              | 
 |  ELK          |   ECS              |
 |  Monitoring   |   Git              |
-|  Kubernetes   |  Nexus             |
+|  Kubernetes   |   Nexus             |
+|  Nginx        |                    |
 
 
-
+## How to configure Bind DNS
 ```
 yum install bind bind-utils net-tools -y
 copy /etc/named.conf
