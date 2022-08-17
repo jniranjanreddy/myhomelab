@@ -12,7 +12,7 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 |  ELK          |   ECS              |
 |  Monitoring   |   Git              |
 |  Kubernetes   |   Nexus             |
-|  Nginx        |                    |
+|  Nginx        |   Istio             |
 
 
 ## How to configure Bind DNS
