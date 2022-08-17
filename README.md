@@ -3,7 +3,7 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
 ## My Technologies.
 
-|  On-Prem      |   Cloud           |    
+|  On-Prem      |   Cloud            |    
 |---------------|--------------------|
 |  Python       |   AWS              |  
 |  Jenkins      |   Terraform        | 
@@ -11,13 +11,13 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 |  Docker       |   EKS              | 
 |  ELK          |   ECS              |
 |  Monitoring   |   Git              |
-|  Kubernetes   |   Nexus             |
-|  Nginx        |   Istio             |
+|  Kubernetes   |   Nexus            |
+|  Nginx        |   Istio            |
 
 
 ## Docker Containers..
-| Applications                     | Image                          |
-| ------------------------------- | --------------------------------------------- |
+| Applications                     | Image                                         |
+| -------------------------------- | --------------------------------------------- |
 | Gitlab  | export GITLAB_HOME=/srv/gitlab ; export GITLAB_HOME=/srv/gitlab ; docker run --detach --hostname 192.168.9.19 --publish 443:443 --publish 8001:80 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ce:latest |
 | Jenkins        | docker volume create jenkins-volume ; docker run -itd --name jenkins -v jenkins-volume:/var/jenkins_home -p 8002:8080 nirulabs/jenkins-may22 |
 | Ansible        | docker run -itd --name ansible-tower -p 8004:8052 ansible/awx |
