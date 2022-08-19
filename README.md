@@ -35,4 +35,4 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 | SonarQube | docker container run -d --name sonarqube-1 -p 9000:9000 sonarqube:lts-developer |
 | Swarm Visualizer| docker run -it -d -p 5000:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer |
 | ELK Stack |  Its working in Centos7 - docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk |
-| MetricBeat | docker run docker.elastic.co/beats/metricbeat:8.3.3 setup -E setup.kibana.host=kibana:5601 -E output.elasticsearch.hosts=["elasticsearch:9200"]|
+| MetricBeat | docker run docker.elastic.co/beats/metricbeat:8.3.3 setup -E setup.kibana.host=192.168.9.90:5601 -E output.elasticsearch.hosts=["elasticsearch:9200"]|
