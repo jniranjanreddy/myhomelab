@@ -23,7 +23,7 @@ https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
 | -------------------------------- | --------------------------------------------- |
 | Gitlab  | export GITLAB_HOME=/srv/gitlab ; export GITLAB_HOME=/srv/gitlab ; docker run --detach --hostname 192.168.9.19 --publish 443:443 --publish 8001:80 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ce:latest |
 | Jenkins        | docker volume create jenkins-volume ; docker run -itd --name jenkins -v jenkins-volume:/var/jenkins_home -p 8002:8080 nirulabs/jenkins-may22 |
-| Ansible        | docker run -itd --name ansible-tower -p 8004:8052 ansible/awx |
+| Ansible        | docker run -itd --name ansible-tower -p 8004:8052 ansible/awx:17.1.0 |
 | Grafana        | mkdir /grafana ; docker run -d -p 3000:3000 --name grafana -v grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=secret" grafana/grafana |
 | Prometheus     | docker run -itd --name prometheus -p  9090:9090 prom/prometheus |
 | Alert Manager  | docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager |
