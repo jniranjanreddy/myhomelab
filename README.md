@@ -31,7 +31,7 @@ https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
 | Node Exporter | docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master |
 | Jfrog Artifactory| mkdir -p /jfrog/artifactory ; chown -R 1030:1030 /jfrog/artifactory ; chown -R 1030:1030 /jfrog ; docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084   -v /jfrog/artifactory:/var/opt/jfrog/artifactory   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' docker.bintray.io/jfrog/artifactory-oss:latest |
 | Nexus Artifactory | docker volume create --name nexus-data; docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3 |
-| Postgres | docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres |
+| Postgres | docker run --name learn_postgres -e POSTGRES_PASSWORD=docker_user -e POSTGRES_USER=docker_user -p 5433:5432 -v postgres-vol01:/var/lib/postgresql -d postgres |
 | nginx| docker run -itd -v /etc/nginx:/etc/nginx -v /www:/www --name nginx -p 80:80 nginx:1.19-alpine |
 | RabbitMQ | docker run -v /rabbitmq-data:/var/lib/rabbitmq -d --hostname dev-server01 --name rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=password -p 8088:15672 -p 8087:5672 rabbitmq:3-management|
 | graphite | docker run -d --name graphite --restart=always -p 4040:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126               graphiteapp/graphite-statsd |
