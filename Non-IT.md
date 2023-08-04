@@ -39,12 +39,12 @@ Day -49 and Day 50 Revision
 ```
 ### DevOps
 ```
-DevOps - 9 Hours
-Day 51 to  54 Days
+DevOps - 9 Hours - Daily two hours
+Day 51 to  56 Days
     https://www.youtube.com/watch?v=N1fYTi-edNk
 ```
 ### Combing all learnings
-Day 54 to Day 60 Days.
+Day 57 to Day 60 Days.
 
     
 
