@@ -1,7 +1,7 @@
 
 ## Basics for Non-IT Guys
  
-### Basics - 5 Hours Videp
+### Basics - 5 Hours Video
 ```
      Day-1 - 2 Hours
         https://www.youtube.com/watch?v=scJ_s2xVZFQ
