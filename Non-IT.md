@@ -44,29 +44,6 @@ Day 51 to  56 Days
     https://www.youtube.com/watch?v=N1fYTi-edNk
 ```
 ### Combing all learnings
+```
 Day 57 to Day 60 Days.
-
-    
-
-
-
-
-
-     
-     
-
-
-
-linux - https://www.youtube.com/watch?v=qjlwbS8SGEA
-        https://www.youtube.com/watch?v=0IFdlY5UjYA
-
-Networking: 
-https://www.youtube.com/watch?v=iJ5YDEC9dD8&t=15s
-https://www.youtube.com/watch?v=U7Ztb98F4lo&list=PLwJc6NuSoLW-DwT5ux80W0nFmNVo0LrZV
-
-DevOps:
-https://www.youtube.com/watch?v=N1fYTi-edNk
-
-Windows Server: 
-1. https://www.youtube.com/watch?v=q97cS4c-t0s&list=PLf_tF2cNlVcY3JoF2o6PhrjVn6i_rwJq5
-2. 
+```
