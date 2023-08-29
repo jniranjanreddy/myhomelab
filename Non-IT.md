@@ -47,6 +47,11 @@ Day 51 to  56 Days
 ```
 Day 57 to Day 60 Days.
 ```
+## Shell Scripting
+```
+https://www.youtube.com/watch?v=Duq5MtBEChc&t=21s
+```
+
 ## It Basic Words
 ```
 000 - out of offie
