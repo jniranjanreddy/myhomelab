@@ -51,6 +51,14 @@ Day 57 to Day 60 Days.
 ```
 https://www.youtube.com/watch?v=Duq5MtBEChc&t=21s
 ```
+## IaC - Infrastructure as Code
+```
+Telugu tutorial
+https://www.youtube.com/watch?v=zoBeyv3Asl0
+```
+
+
+
 
 ## It Basic Words
 ```
