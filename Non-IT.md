@@ -56,7 +56,15 @@ https://www.youtube.com/watch?v=Duq5MtBEChc&t=21s
 Telugu tutorial
 https://www.youtube.com/watch?v=zoBeyv3Asl0
 ```
-
+## English Listening
+```
+https://www.youtube.com/watch?v=aID9nqvkTvk - head phones recommended
+https://www.youtube.com/watch?v=ykt-TibQQfM
+https://www.youtube.com/watch?v=utXfKRoybYg
+https://www.youtube.com/watch?v=D9zq9_EmFZ8
+https://www.youtube.com/watch?v=3ha-kqV0P38
+https://www.youtube.com/watch?v=7UJd6Fn2YDA
+```
 
 
 
