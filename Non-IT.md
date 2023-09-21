@@ -71,8 +71,11 @@ Ansible       - https://www.youtube.com/watch?v=BKg4Ppnse8A
 Jenkins       - https://www.youtube.com/watch?v=4gv4ssEfjp4&t=538s
       How to install Jenkins - https://linuxize.com/post/how-to-install-jenkins-on-centos-7/
 
-```
+Helm - https://www.youtube.com/watch?v=DQk8HOVlumI&list=PL7iMyoQPMtANm_35XWjkNzDCcsw9vy01b&index=18
+      How to Install Helm in Centos 7 - https://medium.com/@ranjeetjangra/install-helm-on-centos-7-746951f8a8ee
 
+Python - https://www.udemy.com/course/learn-complete-python-tutorial-in-simple-way/learn/lecture/14509708#overview
+```
 
 ## English Listening
 ```
@@ -84,9 +87,6 @@ https://www.youtube.com/watch?v=3ha-kqV0P38
 https://www.youtube.com/watch?v=7UJd6Fn2YDA
 https://www.youtube.com/watch?v=VVsxr7wHPY8
 ```
-
-
-
 ## It Basic Words
 ```
 000 - out of offie
