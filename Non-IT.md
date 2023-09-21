@@ -52,7 +52,10 @@ Day 57 to Day 60 Days.
 https://www.youtube.com/watch?v=Duq5MtBEChc&t=21s
 ```
 ## IaC - Infrastructure as Code
-
+```
+Telugu tutorial
+https://www.youtube.com/watch?v=zoBeyv3Asl0
+```
 ## Micro Services
 ```
 Microservices - https://www.youtube.com/watch?v=-uXG8Ge95E0&t=107s
@@ -60,7 +63,8 @@ Docker:       - https://www.youtube.com/watch?v=s5HBHuqeA4Y
       How to install Docker: https://phoenixnap.com/kb/how-to-install-docker-centos-7
 
 Kubernetes    - https://www.youtube.com/watch?v=s5HBHuqeA4Y
-      How to install Kubernetes - 
+      How to install Kubernetes -
+
 Ansible       - https://www.youtube.com/watch?v=BKg4Ppnse8A
       How to install Ansible - https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-
                                on-centos-7
@@ -69,10 +73,7 @@ Jenkins       - https://www.youtube.com/watch?v=4gv4ssEfjp4&t=538s
 
 ```
 
-```
-Telugu tutorial
-https://www.youtube.com/watch?v=zoBeyv3Asl0
-```
+
 ## English Listening
 ```
 https://www.youtube.com/watch?v=aID9nqvkTvk - head phones recommended
