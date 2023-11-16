@@ -62,7 +62,7 @@ Microservices - https://www.youtube.com/watch?v=-uXG8Ge95E0&t=107s
 Docker:       - https://www.youtube.com/watch?v=s5HBHuqeA4Y
       How to install Docker: https://phoenixnap.com/kb/how-to-install-docker-centos-7
 
-Kubernetes    - https://www.youtube.com/watch?v=s5HBHuqeA4Y
+Kubernetes    - https://www.youtube.com/watch?v=y8pRLoy7E_A&t=1080s
       How to install Kubernetes -
 
 Ansible       - https://www.youtube.com/watch?v=BKg4Ppnse8A
