@@ -423,3 +423,28 @@ potential
 Responsible
 Documentation
 ```
+## Chat Abbreviations
+```
+BRB - Be Right Back
+FYI - For Your Information
+ASAP - As Soon As Possible
+BTW - By The Way
+IMHO - In My Humble Opinion
+LOL - Laugh Out Loud
+OMG - Oh My God
+TMI - Too Much Information
+GTG - Got To Go
+TTYL - Talk To You Later
+AFAIK - As Far As I Know
+IDK - I Don't Know
+FYR - For Your Reference
+ICYMI - In Case You Missed It
+TL;DR - Too Long; Didn't Read
+SMH - Shaking My Head
+IMO/IMHO - In My Opinion/In My Humble Opinion
+IRL - In Real Life
+ETA - Estimated Time of Arrival
+OOTD - Outfit Of The Day
+```
+
+
