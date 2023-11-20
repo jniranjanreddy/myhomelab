@@ -15,6 +15,7 @@
   2. All the Professions
         Ex: Doctor, teacher and Beggar
   3. If s word ended with,
+     ```
          ness - brightness
          ment - arrangement
          hood - Childhood
@@ -24,3 +25,4 @@
          or - Tailor
          nt - Print, Paint
          y  - Money
+     ```
