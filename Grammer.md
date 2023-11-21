@@ -1,6 +1,6 @@
 ## Parts of Speech
 
-1. Noun
+1. Noun - 
 2. Pronoun
 3. Verb
 4. Adverb
