@@ -25,4 +25,24 @@
          or - Tailor
          nt - Print, Paint
          y  - Money
+  4. Idea/Concept - Freedom, Love Kindness Happyness
      ```
+
+  ## 5 Types of Nouns
+  ```
+  1. Proper Noun
+    Name of a Person or a country
+    Ex: Abdul Kalam, Australia
+
+  2. Commoun Noun
+     Ex: Girl, boy, Docker teacher, Lawyer.
+
+  3. Material Noun
+       Ex: Rice, Water, Coal, Milk Iron.
+
+  4. Collective Noun,
+       Ex: army, mob, Crowd, flock, cattle, herd, bunch and fleet.
+
+  5. Abstract Noun
+        Ex: goodness, kindness, sympathy, anger, childhood, innocense, youth, boyhood, knowledge, power, wisdom, movement.
+  ```
