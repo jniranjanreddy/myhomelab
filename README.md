@@ -1,4 +1,7 @@
 # myhomelab
+```
+domain: niruai.com
+```
 pdf editor : sejda
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
