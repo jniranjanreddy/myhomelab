@@ -17,6 +17,7 @@ https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
 |  Monitoring   |   Git              |
 |  Kubernetes   |   Nexus            |
 |  Nginx        |   Istio            |
+|  zabbix       |   Monitoring       |
 
 
 ## Docker Containers..
