@@ -32,6 +32,10 @@ Day 26 to 37
     
 Day 38 to 48
     https://www.youtube.com/watch?v=nKGDg_KOUN0&list=PLuJTeEt6HH9fyT9etkrKgOPzJtNesA1Ib
+
+Filesystems - https://www.youtube.com/watch?v=K0va-K4ICmA
+
+
 ```
 ### revisions
 ```
