@@ -39,7 +39,7 @@ https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
   -e MYSQL_PASSWORD=password \
   -v mysql:/var/lib/mysql \
   -p 3306:3306 \
-  mysql:latest 
+  mysql:latest | 
 | Alert Manager  | docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager |
 | Container Exporter | docker run -d --name PROM_CON_EXP -p 9104:9104 -v /sys/fs/cgroup:/cgroup -v /var/run/docker.sock:/var/run/docker.sock            prom/container-exporter |
 | Node Exporter | docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master |
