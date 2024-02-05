@@ -31,6 +31,15 @@ https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
 | Ansible        | docker run -itd --name ansible-tower -p 8004:8052 ansible/awx:17.1.0 |
 | Grafana        | mkdir /grafana ; docker run -d -p 3000:3000 --name grafana -v grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=secret" grafana/grafana |
 | Prometheus     | docker run -itd --name prometheus -p  9090:9090 prom/prometheus |
+| mysql          | docker run -d \
+  --name mysql-container \
+  -e MYSQL_ROOT_PASSWORD=Passw0rd \
+  -e MYSQL_DATABASE=testdb \
+  -e MYSQL_USER=mysql \
+  -e MYSQL_PASSWORD=password \
+  -v mysql:/var/lib/mysql \
+  -p 3306:3306 \
+  mysql:latest 
 | Alert Manager  | docker run --name alertmanager -d -p 9093:9093 quay.io/prometheus/alertmanager |
 | Container Exporter | docker run -d --name PROM_CON_EXP -p 9104:9104 -v /sys/fs/cgroup:/cgroup -v /var/run/docker.sock:/var/run/docker.sock            prom/container-exporter |
 | Node Exporter | docker run -itd --name node-exporter -p 9100:9100 prom/node-exporter:master |
