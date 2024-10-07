@@ -7,6 +7,8 @@ This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
 Alertmanager : 
 https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
+SAML Tracer - https://chromewebstore.google.com/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch
+JWT - Inspector - https://chromewebstore.google.com/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk?hl=en
 
 ## My Technologies.
 
