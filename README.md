@@ -55,5 +55,5 @@ JWT - Inspector - https://chromewebstore.google.com/detail/jwt-inspector/jgjihoo
 | Swarm Visualizer| docker run -it -d -p 5000:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer |
 | ELK Stack |  Its working in Centos7 - docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk |
 | MetricBeat | docker run docker.elastic.co/beats/metricbeat:8.3.3 setup -E setup.kibana.host=192.168.9.90:5601 -E output.elasticsearch.hosts=["elasticsearch:9200"]|
-| Localstack | docker run -itd -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/volume/tmp/localstack":"/tmp/localstack" -p 4566:4566 --network  localstack --name localstack localstack/localstack:latest
- |
+| Localstack | docker run -itd -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/volume/tmp/localstack":"/tmp/localstack" -p 4566:4566 --network  localstack --name localstack localstack/localstack:latest|
+|MOngodb     | docker run -d -p 27017:27017 -v mongodb_data_server2:/data/db --name mongodb_server2 mongo:4.0|
