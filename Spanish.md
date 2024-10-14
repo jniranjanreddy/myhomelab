@@ -1,4 +1,4 @@
-
+```
 
 1. Common Greetings and Farewells
 Hello – Hola
@@ -86,3 +86,4 @@ Practice Tips:
 Use apps like Duolingo, Babbel, or Memrise to build vocabulary.
 Watch Spanish TV shows or listen to Spanish music to immerse yourself.
 Practice speaking with native speakers or language partners for real-life experience.
+```
