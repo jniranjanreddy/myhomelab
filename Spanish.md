@@ -6,9 +6,13 @@ Good morning – Buenos días
 Good afternoon – Buenas tardes
 Good evening/night – Buenas noches
 Goodbye – Adiós
+
+
 See you later – Hasta luego
 See you tomorrow – Hasta mañana
 How are you? – ¿Cómo estás? (informal) / ¿Cómo está usted? (formal)
+
+
 I'm fine, thank you – Estoy bien, gracias
 And you? – ¿Y tú? (informal) / ¿Y usted? (formal)
 2. Basic Courtesy Phrases
@@ -19,6 +23,7 @@ Excuse me – Perdón / Disculpa
 I'm sorry – Lo siento
 Yes – Sí
 No – No
+
 3. Introducing Yourself
 What's your name? – ¿Cómo te llamas? (informal) / ¿Cómo se llama usted? (formal)
 My name is... – Me llamo...
