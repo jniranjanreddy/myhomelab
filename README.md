@@ -57,3 +57,10 @@ JWT - Inspector - https://chromewebstore.google.com/detail/jwt-inspector/jgjihoo
 | MetricBeat | docker run docker.elastic.co/beats/metricbeat:8.3.3 setup -E setup.kibana.host=192.168.9.90:5601 -E output.elasticsearch.hosts=["elasticsearch:9200"]|
 | Localstack | docker run -itd -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/volume/tmp/localstack":"/tmp/localstack" -p 4566:4566 --network  localstack --name localstack localstack/localstack:latest|
 |MOngodb     | docker run -d -p 27017:27017 -v mongodb_data_server2:/data/db --name mongodb_server2 mongo:4.0|
+
+
+```
+Intune
+microsoft 365
+
+```
