@@ -5,6 +5,9 @@ domain: niruai.com
 pdf editor : sejda
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
 
+apt install mysql-client
+apt-get install -y postgresql-client
+
 Alertmanager : 
 https://www.robustperception.io/sending-email-with-the-alertmanager-via-gmail/
 SAML Tracer - https://chromewebstore.google.com/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch
