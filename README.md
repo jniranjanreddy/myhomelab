@@ -1,6 +1,12 @@
 # myhomelab
 ```
 domain: niruai.com
+
+## Important URLS
+```
+https://www.samltool.com/self_signed_certs.php
+```
+
 ```
 pdf editor : sejda
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
