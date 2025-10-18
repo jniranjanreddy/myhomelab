@@ -7,7 +7,33 @@ domain: niruai.com
 https://www.samltool.com/self_signed_certs.php
 
 ```
+## compose files
+```
+Databases:
+  - databases.yaml
+      mongo 4.0
+      mysql 8.0
+      postgres 16
+  - milvus.yaml
+      only Milvus
 
+Airflow:
+  airflow.yaml
+
+kafka:
+  kafka.yaml
+
+Observability: fluentbit, elasticsearch, Kibana
+  cd to observability folder
+  docker compose up  
+
+Monitoring: Prometheus, grafana, alertmanager
+
+
+Security:
+ 
+   
+```
 ```
 pdf editor : sejda
 This is my Home lab Stack, Running in lenovo L470 i5 with 24GB RAM.
